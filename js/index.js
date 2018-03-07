@@ -34,10 +34,10 @@ function HOU(){
 }
 
 function ashley(){
-     window.location = ('mailto:cbyrd@uste3.com;spowell@uste3.com;khazelton@uste3.com;jcomen@uste3.com;mott@uste3.com;ashleyrouting@uste3.com?subject=Ashley EOD&body=');
+     window.location = ('mailto:cbyrd@uste3.com;spowell@uste3.com;khazelton@uste3.com;jcoman@uste3.com;mott@uste3.com;ashleyrouting@uste3.com?subject=Ashley EOD&body=');
 }
 function TheDump(){
-     window.location = ('mailto:cbyrd@uste3.com;spowell@uste3.com;khazelton@uste3.com;jcomen@uste3.com;mott@uste3.com;thedumprouting@uste3.com?subject=The Dump EOD&body=');
+     window.location = ('mailto:cbyrd@uste3.com;spowell@uste3.com;khazelton@uste3.com;jcoman@uste3.com;mott@uste3.com;thedumprouting@uste3.com?subject=The Dump EOD&body=');
 }
 function asi(){
      window.location = ('mailto:jpunch@uste3.com;spowell@uste3.com;khazelton@uste3.com;kdouglas@uste3.com;lchick@uste3.com;npasiut@uste3.com?subject=ASI EOD&body=');
