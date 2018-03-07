@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    margin-left: 35px;
+    font-family: cursive;
+    font-family: sans-serif;
+    color: white;
+}
+
+.navbar.nav-link2 {
+    color: black;
+}
+
+.navbar {
+    background-color: #b3b5b7;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+
+}
+
+.navbar.scrolled {
+    background: rgb(68, 68, 68);
+    /* IE */
+    background: rgba(54, 95, 160, 0.5);
+    /* NON-IE */
+}
+
+.toggler {
+    color: black;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    color: #444;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.wrapper {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 80rem;
+    height: 80vh;
+}
+
+.col-sm-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+.col {
+    width: calc(25% - 2rem);
+    margin: 1rem;
+    cursor: pointer;
+    margin-top: 5rem
+}
+
+.container {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.front,
+.back {
+    background-size: cover;
+    background-position: center;
+    -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: center;
+    min-height: 280px;
+    height: auto;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.back {
+    background: #cedce7;
+    background: -webkit-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+    background: -o-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+    background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+}
+
+.front:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block;
+    opacity: .6;
+    background-color: #000;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.container:hover .front,
+.container:hover .back {
+    -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.inner {
+    -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+    transform: translateY(-50%) translateZ(60px) scale(0.94);
+    top: 50%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 1px solid transparent;
+    -webkit-perspective: inherit;
+    perspective: inherit;
+    z-index: 2;
+
+}
+
+.container .back {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.container .front {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.container:hover .back {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.container:hover .front {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.front .inner form {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.front .inner form:after {
+    content: '';
+    width: 4rem;
+    height: 2px;
+    position: absolute;
+    background: #C6D4DF;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -.75rem;
+}
+
+
+
+
+.HOU {
+    background-image: url(../Resources/HOU.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 1.5%;
+
+}
+
+.ALB {
+    background-image: url(../Resources/ALB.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 1.5%;
+}
+
+.DAL {
+    background-image: url(../Resources/DAL1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 1.5%;
+}
+
+.LAS {
+    background-image: url(../Resources/LAS.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 1.5%;
+}
+
+.AUS {
+    background-image: url(../Resources/AUS.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 1.5%;
+}
+
+.MEM {
+    background-image: url(../Resources/MEM.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 1.5%;
+}
+
+.MCA {
+    background-image: url(../Resources/MCA.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 1.5%;
+}
+
+.PHX {
+    background-image: url(../Resources/PHX.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 1.5%;
+}
+
+.OKC {
+    background-image: url(../Resources/OKC.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 1.5%;
+}
+
+.CRP {
+    background-image: url(../Resources/CRP.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 1.5%;
+}
+
+.SAN {
+    background-image: url(../Resources/SAN.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 1.5%;
+}
+.DEN {
+    background-image: url(../Resources/DEN.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 1.5%;
+}
+.RCH {
+    background-image: url(../Resources/RCH.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 1.5%;
+}
+
+.inner ol {
+    list-style: none;
+}
+
+.inner a {
+    color: white;
+}
+
+.inner a:hover {
+    color: darkcyan;
+    text-decoration: none;
+}
+
+#group2 a:hover {
+    color: firebrick;
+}
+
+#group3 a:hover {
+    color: forestgreen;
+}
+
+#group4 a:hover {
+    color: goldenrod;
+}
+
+.back input {
+    margin-bottom: 10px
+}
+
+.HOU,
+.ALB,
+.DAL,
+.LAS,
+.AUS,
+.MEM,
+.PHX,
+.OKC,
+.CRP,
+.SAN,
+.DEN,
+.RCH h1 {
+    color: white
+}
+
+#add-shadow {
+    -webkit-box-shadow: 14px 5px 154px 39px rgba(184, 177, 184, 1);
+    -moz-box-shadow: 14px 5px 154px 39px rgba(184, 177, 184, 1);
+    box-shadow: 14px 5px 154px 39px rgba(184, 177, 184, 1);
+}
+
+@media screen and (max-width: 64rem) {
+    .col-sm-3 {
+        width: calc(33.333333% - 2rem);
+        margin: 10rem 0 0 0;
+    }
+    .back {
+        width: calc(27% - -10rem);
+    }
+    .HOU,
+    .ALB,
+    .DAL,
+    .LAS,
+    .AUS,
+    .MEM,
+    .MCA,
+    .PHX,
+    .OKC,
+    .CRP,
+    .SAN,
+    .DEN,
+    .RCH{
+        padding-bottom: 40em;
+    }
+    .front {
+        width: 160px;
+        height: 300px;
+    }
+    .inner {
+        padding: 1em;
+    }
+
+
+}
+
+@media screen and (max-width: 48rem) {
+    .col-sm-3 {
+        width: calc(50% - 2rem);
+        height: 250px;
+    }
+    .HOU,
+    .ALB,
+    .DAL,
+    .LAS,
+    .AUS,
+    .MEM,
+    .MCA,
+    .PHX,
+    .OKC,
+    .CRP,
+    .SAN,
+    .DEN,
+    .RCH{
+        padding-bottom: 80em;
+    }
+
+}
+
+@media screen and (max-width: 32rem) {
+    .col-sm-3 {
+        width: 100px;
+        height: 250px;
+        margin: 0 0 2rem 0;
+    }
+    .HOU,
+    .ALB,
+    .DAL,
+    .LAS,
+    .AUS,
+    .MEM,
+    .MCA,
+    .PHX,
+    .OKC,
+    .CRP,
+    .SAN,
+    .DEN,
+    .RCH{
+        padding-bottom: 80em;
+    }
+
+}

@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.bg {
+    background-color: gray;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    margin-left: 35px;
+    font-family: cursive;
+    font-family: sans-serif;
+    color: white;
+}
+
+.navbar.nav-link2 {
+    color: re;
+}
+
+.navbar {
+    background-color: #b3b5b7;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+
+}
+
+.navbar.scrolled {
+    background: rgb(68, 68, 68);
+    /* IE */
+    background: rgba(54, 95, 160, 0.5);
+    /* NON-IE */
+}
+.sec1{
+    align-items: center;
+    margin: 1.5%;
+    height: 80vh;
+    background-color: lightgray;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+}
+.img1{
+    flex: 1;
+    margin: 1.5%;
+}
+.img2{
+    flex: 1;
+    margin: 1.5%;
+}
+.img3{
+    margin: 1.5%;
+}
+section h1{
+    text-align: center;
+    padding: 10px;
+}
+@media only screen and (max-width: 1000px) {
+    .wrapper{
+        display: block;
+    }
+}
+/* Ashley */
+.fun{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 5%;
+}
+table{
+    width: 300px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border: 3px black solid;
+}
+th{
+    padding: 5px;
+    font-size: 20px
+}
+td{
+    padding: 5px;
+}
+.background{
+    background-color: black;
+}
+.container2{
+    display: flex;
+   
+}
+.box11{
+    margin-left: auto;
+    margin-right: auto;
+}
+tbody {
+    text-align: center;
+}
+
+.box1 {
+    margin: 5px;
+    display: flex;
+    flex: 2;
+
+}
+
+.box2 {
+    margin: 5px;
+    display: flex;
+    flex: 2;
+}
+
+.JAN h1 {
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+@media only screen and (max-width: 700px) {
+    .container2 {
+        display: block;
+
+    }
+    .box1 {
+        flex: 1;
+    }
+    .box2 {
+        flex: 1;
+    }
+}
+.container{
+    text-align: center;
+    color: white;
+}
+.container iframe{
+   margin-top: 30px;
+}
+.container{
+     background-image: url(../Resources/mrc.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container1{
+    text-align: center;
+    background-color: lightgray;
+}
+.container1 iframe{
+   margin-top: 30px;
+}
+#ashley{
+    margin: 5rem;
+}
+.ashley{
+    background-color: darkslategray;
+}
+.img img{
+     display: block;
+     margin: 0 auto;
+}
+.buttons{
+    text-align: center;
+    
+}
+.buttons a{
+    color: white;
+}
+.buttons a:hover{
+    color: white;
+    text-decoration: none;
+}
