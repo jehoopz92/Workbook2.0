@@ -217,7 +217,7 @@ body {
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
     text-align: center;
-    margin-top: 7em;
+    margin-top: 1em;
     
 }
 .el.s--active .el__content {
@@ -229,12 +229,13 @@ body {
 }
 .el__text {
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 60px;
   color: #fff;
 }
 .el__text a{
-    padding: 2em;
+    padding: 1em;
     color: white;
+    width: 5px;
     
 }
 a:hover{
@@ -248,7 +249,7 @@ a:hover{
     
 }
 .el__text1 a{
-    padding: 1rem;
+    
     color: white;
 }
 .el__text1 a:hover{
@@ -570,3 +571,4 @@ a:hover{
   width: 100%;
   vertical-align: top;
 }
+
