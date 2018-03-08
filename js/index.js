@@ -34,7 +34,7 @@ function HOU(){
 }
 
 function ashley(){
-     window.location = ('mailto:cbyrd@uste3.com;spowell@uste3.com;khazelton@uste3.com;jcoman@uste3.com;mott@uste3.com;ashleyrouting@uste3.com?subject=Ashley EOD&body=');
+     window.location = ('mailto:abaigis@uste3.com;spowell@uste3.com;khazelton@uste3.com;ashleyrouting@uste3.com;dhahn@uste3.com;saikenhead@uste3.com?subject=Ashley EOD&body=');
 }
 function TheDump(){
      window.location = ('mailto:cbyrd@uste3.com;spowell@uste3.com;khazelton@uste3.com;jcoman@uste3.com;mott@uste3.com;thedumprouting@uste3.com?subject=The Dump EOD&body=');
