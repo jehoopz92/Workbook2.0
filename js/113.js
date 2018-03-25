@@ -36,7 +36,7 @@ function truckcount() {
 
 function zipmismatch() {
     var date = new Date.today().add(1).days().toString('M/d/yyyy');
-    window.location = ('mailto:cjackson@uste3.com; nfields@uste3.com; eric.widener@conns.com;crystal.welch@conns.com; Oklahoma.warehouse@conns.com; jhurley@uste3.com;aleplatt@uste3.com;jemery@uste3.com;spowell@uste3.com?subject=Conns Oklahoma City Zip Code Mismatch ' + date + '&body= Good Evening, Invoice  is coming up as a zip code mismatch. On the ticket it is placed in zip code  . DT is suggesting it be placed in zip code  . Can someone reach out to the customer to confrim which zip code is correct? Thank you!');
+    window.location = ('mailto:cjackson@uste3.com; nfields@uste3.com; crystal.welch@conns.com;eric.widener@conns.com; Oklahoma.warehouse@conns.com; jhurley@uste3.com;aleplatt@uste3.com;jemery@uste3.com;spowell@uste3.com?subject=Conns Oklahoma City Zip Code Mismatch ' + date + '&body= Good Evening, Invoice  is coming up as a zip code mismatch. On the ticket it is placed in zip code  . DT is suggesting it be placed in zip code  . Can someone reach out to the customer to confrim which zip code is correct? Thank you!');
 }
 
 function otd1() {

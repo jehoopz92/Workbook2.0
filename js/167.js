@@ -21,7 +21,7 @@ function unresolved() {
 
 function notification() {
     var date = new Date.today().add(0).days().toString('M/d/yyyy');
-    window.location=('mailto:cdiaz@uste3.com; aestrada@uste3.com;mott@uste3.com;dventers@uste3.com;khazelton@uste3.com;spowell@uste3.com;connsrouting@uste3.com?subject='+date+'&body= ');
+    window.location=('mailto:cdiaz@uste3.com; aestrada@uste3.com;mott@uste3.com;swells@uste3.com;khazelton@uste3.com;spowell@uste3.com;connsrouting@uste3.com?subject='+date+'&body= ');
 }
 
 function ustonly() {
@@ -36,18 +36,18 @@ function truckcount() {
 
 function zipmismatch() {
     var date = new Date.today().add(1).days().toString('M/d/yyyy');
-   window.location=('mailto:cdiaz@uste3.com; aestrada@uste3.com; corpus.warehouse@conns.com; daniel.soliz@conns.com; blas.rodriguez@conns.com; jhurley@uste3.com;aleplatt@uste3.com;jemery@uste3.com;spowell@uste3.com?subject=Conns Corpus Christi Zip Code Mismatch '+date+'&body= Good Evening, Invoice  is coming up as a zip code mismatch. On the ticket it is placed in zip code  . DT is suggesting it be placed in zip code  . Can someone reach out to the customer to confrim which zip code is correct? Thank you!');
+   window.location=('mailto:cdiaz@uste3.com; aestrada@uste3.com; corpus.warehouse@conns.com;crystal.welch@conns.com; daniel.soliz@conns.com; blas.rodriguez@conns.com; jhurley@uste3.com;aleplatt@uste3.com;jemery@uste3.com;spowell@uste3.com?subject=Conns Corpus Christi Zip Code Mismatch '+date+'&body= Good Evening, Invoice  is coming up as a zip code mismatch. On the ticket it is placed in zip code  . DT is suggesting it be placed in zip code  . Can someone reach out to the customer to confrim which zip code is correct? Thank you!');
 }
 
 function otd1() {
     var date = new Date.today().add(0).days().toString('M/d/yyyy');
-   window.location=('mailto:cdiaz@uste3.com; aestrada@uste3.com;mott@uste3.com;dventers@uste3.com;khazelton@uste3.com;spowell@uste3.com;connsrouting@uste3.com?subject= Corpus Christi - 9:30 - '+date+'&body= ');
+   window.location=('mailto:cdiaz@uste3.com; aestrada@uste3.com;mott@uste3.com;swells@uste3.com;khazelton@uste3.com;spowell@uste3.com;connsrouting@uste3.com?subject= Corpus Christi - 9:30 - '+date+'&body= ');
     
 }
 
 function otd2() {
     var date = new Date.today().add(0).days().toString('M/d/yyyy');
-  window.location=('mailto:cdiaz@uste3.com; aestrada@uste3.com;mott@uste3.com;dventers@uste3.com;khazelton@uste3.com;spowell@uste3.com;connsrouting@uste3.com?subject= Corpus Christi - 10:30 - '+date+'&body= ');
+  window.location=('mailto:cdiaz@uste3.com; aestrada@uste3.com;mott@uste3.com;swells@uste3.com;khazelton@uste3.com;spowell@uste3.com;connsrouting@uste3.com?subject= Corpus Christi - 10:30 - '+date+'&body= ');
     
 }
 
